@@ -63,9 +63,8 @@ const structuredData = {
       ) {
         return localStorage.getItem("theme");
       }
-      return window.matchMedia("(prefers-color-scheme: dark)").matches
-        ? "dark"
-        : "light";
+      // Default to dark mode
+      return "dark";
     };
 
     const isDark = getThemePreference() === "dark";
@@ -86,6 +85,21 @@ const structuredData = {
 
 <html lang="en" class="scroll-smooth">
   <head>
+    <script is:inline>
+      // Set dark mode immediately on page load
+      (function() {
+        const getTheme = () => {
+          if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
+            return localStorage.getItem("theme");
+          }
+          return "dark"; // Default to dark
+        };
+        const theme = getTheme();
+        if (theme === "dark") {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
