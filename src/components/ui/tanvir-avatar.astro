@@ -1,6 +1,6 @@
 ---
 import { Picture } from "astro:assets";
-import ImgAvatar from "@/assets/louai-avatar.jpg";
+import ImgAvatar from "@/assets/tanvir-avatar.jpg";
 import { PROFILE_INFO } from "@/lib/constants/profile";
 
 interface Props {
@@ -11,7 +11,7 @@ interface Props {
 
 const {
   className,
-  size = 100, // Default size if not provided
+  size = 150, // Default size if not provided
   priority = false,
 } = Astro.props;
 
@@ -23,7 +23,7 @@ const formats = ["avif", "webp"];
   class:list={[className]}
   src={ImgAvatar}
   widths={[size, size * 2]}
-  sizes={`(max-width: ${size}px) 100vw, ${size}px`}
+  sizes={`(max-width: ${size}px) 150vw, ${size}px`}
   formats={formats}
   alt={`${PROFILE_INFO.displayName}'s avatar`}
   quality="mid"

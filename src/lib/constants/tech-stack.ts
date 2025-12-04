@@ -1,146 +1,125 @@
 import {
-  BunJs,
+  Astro,
   Docker,
-  Figma,
-  Framer,
   Git,
-  MongoDB,
+  JavaScript,
+  Laravel,
+  MySQL,
   NextJs,
-  NodeJs,
-  Python,
+  PHP,
+  PostgreSQL,
   React,
-  ReactQuery,
-  Redis,
-  Redux,
-  ShadcnUI,
   TailwindCSS,
   TypeScript,
-  Appwrite,
-  Astro
 } from "developer-icons";
 
-import HonoIcon from '@/components/ui/icons/hono.astro'
-import FastapiIcon from '@/components/ui/icons/fastapi.astro'
-
-
 export const TECH_STACK = [
-  // Programming Languages
+  // Languages & Frameworks
   {
-    title: "TypeScript",
-    href: "https://www.typescriptlang.org/",
-    icon: TypeScript,
+    title: "PHP",
+    href: "https://www.php.net/",
+    icon: PHP,
   },
   {
-    title: "Python",
-    href: "https://www.python.org/",
-    icon: Python,
+    title: "JavaScript",
+    href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    icon: JavaScript,
   },
-
-  // Frontend Technologies
+  {
+    title: "Laravel",
+    href: "https://laravel.com/",
+    icon: Laravel,
+  },
   {
     title: "React",
     href: "https://react.dev/",
     icon: React,
   },
   {
-    title: "Next.js",
-    href: "https://nextjs.org/",
-    icon: NextJs,
+    title: "Inertia.js",
+    href: "https://inertiajs.com/",
   },
   {
-    title: "Astro.js",
+    title: "Alpine.js",
+    href: "https://alpinejs.dev/",
+  },
+  {
+    title: "Astro",
     href: "https://astro.build/",
     icon: Astro,
+  },
+  {
+    title: "Livewire",
+    href: "https://livewire.laravel.com/",
+  },
+  {
+    title: "Filament PHP",
+    href: "https://filamentphp.com/",
   },
   {
     title: "Tailwind CSS",
     href: "https://tailwindcss.com/",
     icon: TailwindCSS,
   },
+
+  // Databases
   {
-    title: "Redux",
-    href: "https://redux.js.org/",
-    icon: Redux,
+    title: "MySQL",
+    href: "https://www.mysql.com/",
+    icon: MySQL,
   },
   {
-    title: "Zustand",
-    href: "https://zustand-demo.pmnd.rs/",
+    title: "PostgreSQL",
+    href: "https://www.postgresql.org/",
+    icon: PostgreSQL,
   },
   {
-    title: "React Query",
-    href: "https://tanstack.com/query/latest",
-    icon: ReactQuery,
-  },
-  {
-    title: "shadcn/ui",
-    href: "https://ui.shadcn.com/",
-    icon: ShadcnUI,
-  },
-  {
-    title: "Motion",
-    href: "https://motion.dev/",
-    icon: Framer,
+    title: "SQLite",
+    href: "https://www.sqlite.org/",
   },
 
-
-  // Backend Technologies
+  // Tools & Platforms
   {
-    title: "Node.js",
-    href: "https://nodejs.org/",
-    icon: NodeJs,
+    title: "Git",
+    href: "https://git-scm.com/",
+    icon: Git,
   },
   {
-    title: "Bun",
-    href: "https://bun.sh/",
-    icon: BunJs,
+    title: "GitHub",
+    href: "https://github.com/",
   },
-  {
-    title: "FastAPI",
-    href: "https://fastapi.tiangolo.com/",
-    icon: FastapiIcon
-  },
-  {
-    title: "Honojs",
-    href: "https://hono.dev/",
-    icon: HonoIcon
-  },
-  {
-    title: "Appwrite",
-    href: "https://appwrite.io",
-    icon: Appwrite
-  },
-
-  // Databases & Caching
-  {
-    title: "MongoDB",
-    href: "https://www.mongodb.com/",
-    icon: MongoDB,
-  },
-  {
-    title: "Redis",
-    href: "https://redis.io/",
-    icon: Redis,
-  },
-
-  // DevOps & Development Tools
   {
     title: "Docker",
     href: "https://www.docker.com/",
     icon: Docker,
   },
   {
-    title: "Git",
-    href: "https://git-scm.com/",
-    icon: Git,
+    title: "Slack",
+    href: "https://slack.com/",
   },
-
-
-
-  // Miscellaneous
   {
-    title: "Figma",
-    href: "https://www.figma.com/",
-    icon: Figma,
+    title: "Trello",
+    href: "https://trello.com/",
+  },
+  {
+    title: "Google APIs",
+    href: "https://developers.google.com/",
+  },
+  {
+    title: "GitHub Copilot",
+    href: "https://github.com/features/copilot",
+  },
+  {
+    title: "JetBrains",
+    href: "https://www.jetbrains.com/",
+  },
+  {
+    title: "Trae",
+    href: "#",
+  },
+  {
+    title: "Google Antigravity",
+    href: "#",
   },
 ];
 

@@ -1,12 +1,15 @@
 export const PROFILE_INFO = {
-  role: 'Software Engineer / Full-stack Developer',
-  logo: 'Tanvir.b',
-  slogan: 'Coding, Creativity, Coffee...',
+  role:
+    "Full Stack Web Developer\n / Software Engineer",
+  logo: "Tanvir.Bappy",
+  slogan: "Crafting modern, scalable & impactful digital products",
   displayName: "Tanvir Hossen Bappy",
-  email: "boumedienelouai2@gmail.com",
+  email: "tanvirbappy7706@gmail.com",
   about: `
-I'm a **software engineer** passionate about crafting high-quality digital experiences. With expertise in **full-stack** development and a strong eye for **UI/UX**, I build **performant, pixel-perfect** applications that are both functional and visually appealing.  
-Always **learning**, always **iterating**, always pushing boundaries.  
-`,
+Full Stack Web Developer with 4.5+ years of hands-on experience in building high-performance,
+scalable applications using Laravel, JavaScript, and modern frontend frameworks. I specialize in
+translating ideas into clean, efficient, and maintainable code while ensuring exceptional user 
+experience. Passionate about system architecture, performance optimization, and creating products 
+that genuinely solve problems and deliver value.
+  `,
 } as const;
-
