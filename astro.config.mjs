@@ -8,10 +8,12 @@ import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://thbappy7706.github.io/astro-portfolio/',
-    base: '/astro-portfolio/',
-  integrations: [react(), mdx()],
-  vite: {
-    plugins: [tailwindcss()],
-  },
+    // Your GitHub Pages user/organization site URL (no trailing slash)
+    site: 'https://thbappy7706.github.io',
+    // Base path for a project page repository
+    base: '/my-folio/',
+    integrations: [react(), mdx()],
+    vite: {
+        plugins: [tailwindcss()],
+    },
 });
