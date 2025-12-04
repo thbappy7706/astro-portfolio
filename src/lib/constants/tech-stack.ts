@@ -10,6 +10,24 @@ import {
   React,
   TailwindCSS,
 } from "developer-icons";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import InertiaIcon from '@/components/ui/icons/inertia.astro'
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import AlpineIcon from '@/components/ui/icons/alpine.astro'
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import LivewireIcon from '@/components/ui/icons/livewire.astro'
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import FilamentIcon from '@/components/ui/icons/filament.astro'
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import GithubIcon from '@/components/ui/icons/github.astro'
+
+
+
 
 export const TECH_STACK = [
   // Languages & Frameworks
@@ -36,10 +54,13 @@ export const TECH_STACK = [
   {
     title: "Inertia.js",
     href: "https://inertiajs.com/",
+    icon: InertiaIcon,
   },
   {
     title: "Alpine.js",
     href: "https://alpinejs.dev/",
+    icon: AlpineIcon,
+
   },
   {
     title: "Astro",
@@ -49,10 +70,14 @@ export const TECH_STACK = [
   {
     title: "Livewire",
     href: "https://livewire.laravel.com/",
+    icon: LivewireIcon,
+
   },
   {
     title: "Filament PHP",
     href: "https://filamentphp.com/",
+    icon: FilamentIcon,
+
   },
   {
     title: "Tailwind CSS",
@@ -85,6 +110,7 @@ export const TECH_STACK = [
   {
     title: "GitHub",
     href: "https://github.com/",
+    icon : GithubIcon,
   },
   {
     title: "Docker",
