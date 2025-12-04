@@ -11,7 +11,6 @@ export default defineConfig({
     // Your GitHub Pages user/organization site URL (no trailing slash)
     site: 'https://thbappy7706.github.io',
     // Base path for a project page repository
-    base: '/my-folio/',
     integrations: [react(), mdx()],
     vite: {
         plugins: [tailwindcss()],
