@@ -5,12 +5,10 @@ import {
   JavaScript,
   Laravel,
   MySQL,
-  NextJs,
   PHP,
   PostgreSQL,
   React,
   TailwindCSS,
-  TypeScript,
 } from "developer-icons";
 
 export const TECH_STACK = [
